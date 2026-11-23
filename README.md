@@ -21,9 +21,10 @@ npm run check
 - Responsive warm coffeehouse design and mobile swipe slider
 - Transparent brand logo and interactive crow flight, with reduced-motion support
 - Business address, hours, and email supplied by the owner
-- Coming-soon menu section with a clearly labeled, nonfunctional mock QR code
+- Full menu page at `/menu` (`dist/menu.html`), linked from the main navigation
+- Working QR code (`dist/menu-qr.svg`) that points to https://oldcrowcoffee.vercel.app/menu
 
-Replace the mock QR and add a direct menu link in `dist/index.html` when the online menu is ready.
+To change menu items, edit `dist/menu.html`. If the site domain changes, regenerate the QR code (for example with the Python `segno` package) for the new `/menu` URL.
 
 ## Deployment
 

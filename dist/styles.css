@@ -23,3 +23,15 @@
 
 /* Vector icons keep symbols consistent across desktop and mobile fonts. */
 .site-icon{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.15em}.ticker i{display:inline-flex}.facebook-link>.site-icon,.footer-bottom a>.site-icon{margin-left:.35em}@media(max-width:760px){.strip-slide i{display:none}}
+
+/* Menu page and live QR code */
+.menu-qr-preview>a{display:block;flex-shrink:0;line-height:0}.menu-qr-preview>a>img{width:132px;height:132px;display:block;border:6px solid var(--paper);background:var(--paper)}
+nav>a[aria-current=page]{color:var(--rust)}
+.menu-page{padding-top:72px}.menu-page-head h1{font-family:var(--display);font-weight:800;font-size:clamp(56px,9vw,112px);line-height:.92;letter-spacing:-1px;margin:14px 0 18px}
+.menu-sizes{font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin:0 0 44px}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:48px 64px;border-top:2px solid var(--ink);padding-top:36px}
+.menu-col h2{font-family:var(--display);font-weight:800;font-size:38px;letter-spacing:2px;text-transform:uppercase;margin:0 0 18px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.menu-col ul{list-style:none;margin:0;padding:0}.menu-col li{font-size:17px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;padding:11px 0;border-bottom:1px solid var(--line)}
+.menu-kids{margin:40px 0 0;font-weight:600;letter-spacing:1.5px;text-transform:uppercase}
+.menu-qr-card{display:flex;align-items:center;gap:22px;margin-top:48px;padding:22px;border:1px solid var(--ink);max-width:460px}.menu-qr-card img{display:block;width:120px;height:120px}.menu-qr-card p{margin:8px 0 0;line-height:1.5}
+@media(max-width:760px){.menu-page{padding-top:48px}.menu-col h2{font-size:32px}.menu-qr-card{flex-wrap:wrap}}
