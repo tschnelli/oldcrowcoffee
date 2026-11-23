@@ -22,14 +22,14 @@ npm run check
 - Transparent brand logo and interactive crow flight, with reduced-motion support
 - Business address, hours, and email supplied by the owner
 - Full menu page at `/menu` (`dist/menu.html`), linked from the main navigation
-- Working QR code (`dist/menu-qr.svg`) that points to https://oldcrowcoffee.vercel.app/menu
+- Working QR code (`dist/menu-qr.svg`) that points to https://oldcrowcoffeedraft.vercel.app/menu
 
 To change menu items, edit `dist/menu.html`. If the site domain changes, regenerate the QR code (for example with the Python `segno` package) for the new `/menu` URL.
 
 ## Deployment
 
 Vercel serves `dist/` and runs `npm run check`, as configured in `vercel.json`.
-The current live site is https://oldcrowcoffee.vercel.app.
+The current live site is https://oldcrowcoffeedraft.vercel.app.
 Vercel account linking and credentials are not committed.
 
 ## Assets and attribution
